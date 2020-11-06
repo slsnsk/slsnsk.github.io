@@ -1,0 +1,102 @@
+* /*для всех*/ {
+	box-sizing: border-box; /*не учитавть размер отсупов и т.д.*/
+}
+
+body {
+font-family: Tahoma, sans-serif; /*подключение шрифта второй без осечек*/
+line-height: 1.5; /*межстрочный интервал*/
+color: #333333;}
+
+.box {
+padding: 10% 10%;
+background-color: #ccc;
+border: 5px solid black;
+margin-top: 10px;}
+
+.header {
+padding: 30px 10%;
+text-align: center;
+}
+
+.fist {
+margin-top: 80px;
+font-size: 24px; /*размер*/
+text-align: center;
+}
+
+
+.text_1	{
+font-weight: 300; /*жирность шрифта*/
+}
+
+.text_2 {
+text-transform: uppercase;
+font-weight: 900; /*жирность шрифта*/
+}
+
+.main	{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.video, .form {
+display: inline-block;
+vertical-align: top;
+}
+
+.form {
+	margin-left: 30px;
+	border: 5px solid #2727d9;
+	padding: 20px;
+	text-align: left;
+}
+
+.form input {
+width: 300px;
+padding: 17px;
+font-size: 18px;
+border: 1px solid #333	;
+margin-top: 10px;
+display: block;
+}
+
+.form-header {
+	text-align: center;
+	font-size: : 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.form-btn {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	color: white;
+	background-color: #2727d9;
+	border: none;
+	padding: 5px;
+	width: 300px;
+	height: 60px;
+
+}
+
+.header2 {
+	padding-top: 20px;
+}
+
+.feature-header {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.feature {
+	margin-top: 50px;
+}
+
+.col {
+	display: inline-block;
+	text-align: center;
+	margin: 10px 10px;
+}
+
