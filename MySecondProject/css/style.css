@@ -5,7 +5,8 @@
 body {
 font-family: Tahoma, sans-serif; /*подключение шрифта второй без осечек*/
 line-height: 1.5; /*межстрочный интервал*/
-color: #333333;}
+color: #333333;
+background-color: rgb(224, 44, 44);}
 
 .box {
 padding: 10% 10%;
